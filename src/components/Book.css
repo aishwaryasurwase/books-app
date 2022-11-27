@@ -1,0 +1,40 @@
+.book-create,
+.book-edit {
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.book-create form,
+.book-edit form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.book-create form label,
+input,
+button[type='submit'] {
+  margin: 0.3rem 0;
+  padding: 0.5rem 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-show {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.book-show .book-show_actions {
+  display: flex;
+  justify-content: flex-end;
+}
